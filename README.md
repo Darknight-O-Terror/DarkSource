@@ -21,7 +21,6 @@ DarkSource includes several files that you can customize to make your shopfront 
 * `index.html`: The main HTML file for the template. You can add your own products and product categories by modifying this file.
 * `style.css`: The main CSS file for the template. You can customize the colors, fonts, and other styles by modifying this file.
 * `script.js`: The main JavaScript file for the template. You can add custom functionality by modifying this file.
-* `img/background.jpg`: The background image for the shopfront. You can replace this image with your own by placing your image in the "img" folder and renaming it to "background.jpg".
 
 ## Contributing
 
