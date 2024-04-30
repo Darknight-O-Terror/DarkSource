@@ -17,24 +17,32 @@
   </nav>
   <section id="products">
     <div class="product-grid">
-      <div class="product-container">
+      <div class="product-container" data-product-name="Product 1" data-product-description="This is a description of Product 1." data-product-price="$99.99" data-product-image="product1.jpg">
         <img src="product1.jpg" alt="Product 1">
         <p class="product-description">This is a description of Product 1.</p>
-        <p class="product-price">£99.99</p>
+        <p class="product-price">$99.99</p>
       </div>
-      <div class="product-grid">
-        <div class="product-container">
-          <img src="product2.jpg" alt="Product 2">
-          <p class="product-description">This is a description of Product 2.</p>
-          <p class="product-price">£99.99</p>
-        </div>
       <!-- More products -->
     </div>
   </section>
-  <!-- Main content -->
   <footer>
     <!-- Footer content -->
   </footer>
+  <div id="popup-container">
+    <div id="popup">
+      <div id="image-viewer">
+        <!-- Image will be displayed here -->
+      </div>
+      <div id="product-info">
+        <h2 id="product-name"></h2>
+        <p id="product-description"></p>
+        <div id="add-to-cart">
+          <p id="product-price"></p>
+          <button id="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
