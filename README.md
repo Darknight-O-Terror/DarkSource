@@ -1,70 +1,28 @@
-DarkSource README
+# DarkSource: A Modern, Responsive Shopfront Template
 
-This repository contains an Online Product Page Template, which I've created for fun. Below, you will find the necessary information and instructions to use and contribute to this project.
-Table of Contents
+DarkSource is a WIP template for creating a modern, responsive shopfront. It uses a clean and modern design that is easily customizable. DarkSource includes all the necessary HTML, CSS, and JavaScript files for setting up a shopfront, including product pages, a shopping cart, and a responsive design that works well on all devices.
 
-    Getting Started
-        Prerequisites
-        Setup
-    Folder Structure
-    HTML Best Practices
-    Contributing
-    License
+## Getting Started
 
-Getting Started
-Prerequisites
+To use DarkSource, simply clone this repository to your local machine using the following command:
 
-To start working with this template, you will need:
-
-    A text editor (e.g., Visual Studio Code, Sublime Text, Atom)
-    Basic knowledge of HTML
-
-Setup
-
-To set up the project, follow these steps:
-
-    Clone the repository:
-
+```bash
 git clone https://github.com/Darknight-O-Terror/DarkSource.git
+```
 
-Navigate to the project directory:
+Alternatively, you can download the repository as a ZIP file by clicking the "Code" button at the top of this page and selecting "Download ZIP".
 
-    cd DarkSource
+## Customization
 
-    Open the index.html file in your preferred text editor.
+DarkSource includes several files that you can customize to make your shopfront unique. These files are:
 
-Folder Structure
+### Files to Customize
 
-The project follows a simple folder structure:
+* `index.html`: The main HTML file for the template. You can add your own products and product categories by modifying this file.
+* `style.css`: The main CSS file for the template. You can customize the colors, fonts, and other styles by modifying this file.
+* `script.js`: The main JavaScript file for the template. You can add custom functionality by modifying this file.
+* `img/background.jpg`: The background image for the shopfront. You can replace this image with your own by placing your image in the "img" folder and renaming it to "background.jpg".
 
-    index.html: The main HTML file for the product page.
-    css/: A folder containing CSS files for styling.
-    js/: A folder containing JavaScript files for interactivity.
-    images/: A folder containing image assets.
+## Contributing
 
-HTML Best Practices
-
-    Use semantic HTML elements for better accessibility and readability.
-    Include a <!DOCTYPE html> declaration at the beginning of the HTML file.
-    Use the <meta charset="UTF-8"> tag to ensure proper character encoding.
-    Include a <title> tag for the page title.
-    Use the <header>, <main>, <footer>, <article>, and <section> tags to create a clear document structure.
-    Use the <figure> and <figcaption> tags for images and their descriptions.
-    Use the <button> tag for clickable elements instead of <a> when not linking to another page.
-    Use ARIA roles (e.g., role="button") for improved accessibility.
-
-Contributing
-
-Contributions are welcome! To contribute, follow these steps:
-
-    Fork the repository.
-    Create a new branch for your feature or bugfix.
-    Make the necessary changes and commit them.
-    Push the changes to your forked repository.
-    Open a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
-Feel free to use and modify this template for your own projects. Enjoy! 😊
+If you would like to contribute to DarkSource, feel free to fork the repository and submit a pull request with your proposed changes. We welcome all contributions and suggestions to make DarkSource the best template for creating a modern, responsive shopfront.
