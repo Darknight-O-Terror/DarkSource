@@ -1,0 +1,113 @@
+/* Define CSS variables for easy theme configuration */
+:root {
+    --background-color: #121212; /* Dark background */
+    --text-color: #ffffff; /* White text color */
+    --accent-color: #a64ca6; /* Primary purple accent color */
+    --hover-accent-color: #dab0da; /* Lighter purple on hover */
+    --footer-bg-color: #1a1a1a; /* Background color for header and footer */
+    --font-family: 'Roboto', Arial, sans-serif; /* Roboto font with fallbacks */
+    --primary-color: #ffffff;
+}
+
+/* General body styles */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    background-color: var(--background-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main content area */
+main {
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width of the content area */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contact Form Styles */
+#contact-form {
+    width: 100%; /* Ensures the form uses the width set by the main container */
+    padding: 30px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%; /* Full width of the form */
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Stylish and modern font */
+    font-size: 16px; /* Slightly larger font size for better readability */
+    line-height: 1.5; /* Improved line spacing for better readability */
+}
+
+#contact-form textarea {
+    min-height: 100px; /* Minimum height */
+    max-height: 300px; /* Maximum height */
+    min-width: 100%; /* Minimum width */
+    max-width: 100%; /* Maximum width */
+    overflow-y: auto; /* Allows scrolling within the textarea */
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border-color: var(--hover-accent-color);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#contact-form button {
+    align-self: center; /* Center the button within the form */
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#contact-form button:hover {
+    background-color: var(--hover-accent-color);
+    transform: translateY(-2px);
+}

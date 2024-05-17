@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding-top: 50px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  padding: 10px 20px;
+}
+
+.navbar a {
+  position: relative;
+  display: block;
+  padding: 4px 10px;
+  font: 700 1.5rem Raleway, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--primary-color);
+  background: linear-gradient(var(--primary-color) 0 100%) left / 0 no-repeat;
+  color: transparent;
+  background-clip: text;
+  transition: background-size 0.3s linear;
+  font-display: swap;
+}
+
+.navbar a:hover, .navbar a.active {
+  background-size: 100%;
+}
